@@ -1,0 +1,118 @@
+body {
+    min-height: 100vh;
+    backdrop-filter: blur(7px);
+    background: url(../images/2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.main_btn,
+.main_btn_gradient {
+    margin-left: 9px;
+    padding: 8px 28px;
+    box-shadow: none !important;
+}
+
+.main_btn {
+    background-color: #ffffff;
+    border-radius: 35px;
+    color: #8359eb;
+}
+
+.main_btn_gradient {
+    background-image: linear-gradient(to right, #2c28b1 0%, #9b5cf6 100%);
+    color: #fff;
+    border-radius: 35px;
+    box-shadow: none !important;
+}
+
+.bottom_post {
+    bottom: 4.5%;
+    position: absolute;
+    left: 50%;
+}
+
+.main_btn_gradient:hover {
+    color: white;
+    background-image: linear-gradient(to right, #9b5cf6 0%, #2c28b1 100%);
+}
+
+.main_btn:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-back {
+    background-image: -webkit-linear-gradient(left, #2c28b1 0%, #9b5cf6 51%, #2c28b1 100%);
+    background-image: -o-linear-gradient(left, #2c28b1 0%, #9b5cf6 51%, #2c28b1 100%);
+    background-image: linear-gradient(to right, #2c28b1 0%, #9b5cf6 51%, #2c28b1 100%);
+    background-size: 200% auto;
+    color: #fff;
+    width: 44px;
+    padding: 0px;
+    border-radius: 100px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-back:hover {
+    color: white;
+    background-image: -webkit-linear-gradient(left, #9b5cf6 0%, #2c28b1 51%, #9b5cf6 100%);
+    background-image: -o-linear-gradient(left, #9b5cf6 0%, #2c28b1 51%, #9b5cf6 100%);
+    background-image: linear-gradient(to right, #9b5cf6 0%, #2c28b1 51%, #9b5cf6 100%);
+}
+
+.digit-group input {
+    width: 30px;
+    height: 42px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    color: white;
+    margin: 0 2px;
+    -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.digit-group .splitter {
+    padding: 0 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.down-1 {
+    position: relative;
+    top: -40px;
+}
+
+.down-2 {
+    position: relative;
+    top: -108px;
+}
+
+.down-3 {
+    position: relative;
+    top: -176px;
+}
